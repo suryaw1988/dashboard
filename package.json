@@ -1,0 +1,66 @@
+{
+  "name": "dgs10",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/date-fns": "^2.6.0",
+    "axios": "^0.19.0",
+    "axios-mock-adapter": "^1.15.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-daterangepicker": "^3.0.5",
+    "chart.js": "^2.9.3",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.10.0",
+    "daypilot-pro-react": "https://npm.daypilot.org/daypilot-pro-react/trial/2019.3.4000.tar.gz",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "history": "^4.10.1",
+    "http-proxy-middleware": "^1.0.1",
+    "jquery": "^3.4.1",
+    "leaflet": "^1.6.0",
+    "mui-datatables": "^2.14.0",
+    "perfect-scrollbar": "^1.5.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-big-scheduler": "^0.2.6",
+    "react-bootstrap-daterangepicker": "^4.1.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-dnd": "^7.5.0",
+    "react-dnd-html5-backend": "^7.5.0",
+    "react-dom": "^16.13.0",
+    "react-leaflet": "^2.6.1",
+    "react-mapbox-gl": "^4.8.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0"
+  },
+  "proxy": "https://api.digas.id",
+  "homepage": "https://app.digas.id",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:staging": "env-cmd -f .env.staging npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
